@@ -15,5 +15,12 @@ function sum2(a: number, b: number): number {
   return a + b;
 }
 
-// JS에서는 가능하지만 TS에서는 정의되지 않은 파라미터 제한 (30)
-// sum(10, 20, 30);
+// sum(10);
+
+// 함수의 옵셔널 파라미터
+function log(a: string, b?: string) {
+
+}
+
+log('hello world');
+log('hello ts', 'abc');
